@@ -2,10 +2,10 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "real_estate"
-app_title = "Real Estate"
+app_name = "real_estates"
+app_title = "Real Estates"
 app_publisher = "Ramoletane Lekhanya"
-app_description = "Real estate property management system"
+app_description = "Real Estates property management system"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "ramoletane@gmail.com"
@@ -15,12 +15,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/real_estate/css/real_estate.css"
-# app_include_js = "/assets/real_estate/js/real_estate.js"
+# app_include_css = "/assets/real_estates/css/real_estates.css"
+# app_include_js = "/assets/real_estates/js/real_estates.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/real_estate/css/real_estate.css"
-# web_include_js = "/assets/real_estate/js/real_estate.js"
+# web_include_css = "/assets/real_estates/css/real_estates.css"
+# web_include_js = "/assets/real_estates/js/real_estates.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -43,7 +43,7 @@ app_license = "MIT"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "real_estate.utils.get_home_page"
+# get_website_user_home_page = "real_estates.utils.get_home_page"
 
 # Generators
 # ----------
@@ -54,14 +54,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "real_estate.install.before_install"
-# after_install = "real_estate.install.after_install"
+# before_install = "real_estates.install.before_install"
+# after_install = "real_estates.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "real_estate.notifications.get_notification_config"
+# notification_config = "real_estates.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -92,38 +92,38 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"real_estate.tasks.all"
+# 		"real_estates.tasks.all"
 # 	],
 # 	"daily": [
-# 		"real_estate.tasks.daily"
+# 		"real_estates.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"real_estate.tasks.hourly"
+# 		"real_estates.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"real_estate.tasks.weekly"
+# 		"real_estates.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"real_estate.tasks.monthly"
+# 		"real_estates.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "real_estate.install.before_tests"
+# before_tests = "real_estates.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "real_estate.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "real_estates.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "real_estate.task.get_dashboard_data"
+# 	"Task": "real_estates.task.get_dashboard_data"
 # }
 

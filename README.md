@@ -1,6 +1,6 @@
-## Real Estate
+## Real Estates
 
-Real estate property management system
+Real Estates property management system
 
 #### License
 
